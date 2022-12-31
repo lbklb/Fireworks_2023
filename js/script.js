@@ -852,7 +852,9 @@ function init() {
 	
 	// Apply initial config
 	configDidUpdate();
+	setTimeout(() => {
 	fscreen.requestFullscreen(document.documentElement);
+	}, 500);
 }
 
 
